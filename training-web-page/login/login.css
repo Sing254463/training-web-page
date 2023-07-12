@@ -1,0 +1,143 @@
+
+/* to body */
+#body{
+    background-image: url("../image/body/1600w-99v34p26kG0.webp");
+    background-size: 300%;
+}
+
+
+/* container กรอบนอก */
+.container {
+    /* background-color: rgba(255, 255, 255, 0); */
+    text-align: center;
+    width: 1140px;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* container กรอบในที่ใส่login */
+.container2 {
+    background-color: rgba(255, 255, 255, 0.288);
+    text-align: center;/*เป็นการกำหมดให้ข้อความอยู่ตรงกลาง*/
+    width: 480px;
+    height: 347px;
+
+    display: flex;  /*ตั้งค่าว่าองค์ประกอบจะถือว่าเป็นบล็อก*/
+    align-items: center; /*ดูตัวอย่างหรืออ่านคำอธิบายตามลิ้งนี้ https://developer.mozilla.org/en-US/docs/Web/CSS/align-items */
+    justify-content: center; /*เป็นการกำหมดให้box อยู่ตำแหน่งต่างๆ ดูตัวอย่างได้ตามลิ้ง https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content */
+
+    border-style: solid;    /* เป็นการสร้างกรอบของ container หรือ ขอบเส้น box*/
+    border-width: 1px;      /* เป็นการกำหนดกรอบของ container หรือ กำหนดขอบเส้น box*/
+    border-color: rgba(0, 0, 0, 0.12); /*เป็นการกำหนดสีของ กรอบ container หรือกำหนดขอบสีของ box*/
+    border-top: solid; /*เพิ่มขอบเส้นบ้นของ container หรือ กำหนดขอบเส้นบนของ box*/
+    border-top-color: blue; /*เป็นการกำหนดสีของขอบเว้นบน หรือกำหนดขอบสีของเส้นบนของbox*/
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.20); /*เป็นการสร้างเอฟเฟกเงาbox* rgba(0, 0, 0, 0.20); เป็นการกำหนดสีของเงา*/
+}
+
+#login{
+    text-align:start; /*เป็นการกำหมดให้ตัวอักษรอยู่ด้านซ้าย*/
+    color: blue;
+}
+
+
+
+
+
+#box{
+
+    background-color: rgba(255, 255, 255, 1);
+    width: 382px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+
+
+}
+
+
+
+.image{
+    width: 46px;
+    height: 46px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 5px ; /*กำหนดขอบเหลียมซ้ายบน ให้มน*/
+    border-bottom-left-radius: 5px; /*กำหนดขอบเหลียมซ้ายล้าง ให้มน*/
+
+}
+
+#Usernameinput{
+    
+    width: 382px;
+    height: 46px;
+    margin-left: -0.06em;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 0px ;   
+    border-bottom-left-radius: 0px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+
+
+
+#box2{
+    background-color: rgba(255, 255, 255, 1);
+    width: 382px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+    
+}
+
+#lockpassword{
+    width: 382px;
+    height: 46px;
+    margin-left: -0.06em;
+    border-top-left-radius: 0px ;
+    border-bottom-left-radius: 0px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+.help{
+    text-align: right;
+    font-size: 0.75px;
+    margin: 2%;
+
+}
+#Help{
+    color: black;
+    
+}
+
+
+.Singup{
+    text-align:start;
+    font-size: 12px;
+}
+
+.btn{
+    background-color: #4adbff;
+    font-size: 30px;
+    color: white;
+    width: 382px;
+    height: 35px;
+    border: 1px;
+    border-radius: 5px;
+}
+
